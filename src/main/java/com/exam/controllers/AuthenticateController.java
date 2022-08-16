@@ -24,7 +24,7 @@ import com.exam.service.UserDetailsServiceimpl;
 
 
 @RestController
-@CrossOrigin
+@CrossOrigin("*")
 public class AuthenticateController {
 
     @Autowired

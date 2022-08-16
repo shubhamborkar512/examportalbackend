@@ -22,7 +22,7 @@ import com.exam.service.CategoryServiceImpl;
 
 @RestController
 @RequestMapping("/category")
-@CrossOrigin
+@CrossOrigin("*")
 public class CategoryController {
 	
 	@Autowired
