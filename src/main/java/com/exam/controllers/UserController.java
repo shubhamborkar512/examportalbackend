@@ -45,7 +45,7 @@ public class UserController {
 			Role role=new Role();
 			role.setRoleId(2L);
 //			role.setRoleName("normal");
-			role.setRoleName("admin");
+			role.setRoleName("normal");
 			UserRole userrole=new UserRole();
 			userrole.setRole(role);
 			userrole.setUser(user);
